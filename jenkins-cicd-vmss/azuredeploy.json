@@ -4,6 +4,7 @@
   "parameters": {
     "jenkinsVMAdminUsername": {
       "type": "string",
+      "defaultValue": "jenkinsadmin",
       "minLength": 1,
       "metadata": {
         "description": "User name for the Jenkins Virtual Machine."
@@ -71,6 +72,7 @@
     },
     "VMDnsPrefix": {
       "type": "string",
+      "defaultValue": "msvmssapp00",
       "minLength": 3,
       "metadata": {
         "description": "Unique DNS Name for the new Tomcat Virtual Machine."
@@ -78,6 +80,7 @@
     },
     "VMAdminUsername": {
       "type": "string",
+      "defaultValue": "azureuser",
       "minLength": 3,
       "metadata": {
         "description": "Username for the new Tomcat Virtual Machine."
